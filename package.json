@@ -1,0 +1,10 @@
+{
+  "name": "@onivoro/server-kafka",
+  "version": "0.0.1",
+  "scripts": {
+    "local": "rm -rf dist/libs/server/kafka && nx build server-kafka && node dist/libs/server/kafka/src/index.js"
+  },
+  "peerDependencies": {
+    "kafkajs": "1.14.0"
+  }
+}
