@@ -1,6 +1,6 @@
 {
   "name": "@onivoro/server-kafka",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "local": "rm -rf dist/libs/server/kafka && nx build server-kafka && node dist/libs/server/kafka/src/index.js",
     "test": "jest",
